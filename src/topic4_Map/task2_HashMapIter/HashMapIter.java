@@ -14,7 +14,8 @@ public class HashMapIter {
 
         System.out.println("Студенты с баллами выше 75: ");
         for(Map.Entry student : students.entrySet()) {
-            if((int)student.getValue() > 75) System.out.println(student.getKey() + " : " + student.getValue());
+            if((int)student.getValue() > 75)
+                System.out.println(student.getKey() + " : " + student.getValue());
         }
     }
 }
