@@ -2,10 +2,11 @@ package topic1_List.task4_ArrayListSort;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class SortedArrayListDemo {
     public static void main(String[] args) {
-        ArrayList<Integer> arrayList = new ArrayList<>();
+        List<Integer> arrayList = new ArrayList<>();
 
         arrayList.add(42);
         arrayList.add(17);

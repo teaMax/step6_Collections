@@ -13,8 +13,8 @@ public class HashMapIter {
         students.put("Diana", 68);
 
         System.out.println("Студенты с баллами выше 75: ");
-        for(Map.Entry student : students.entrySet()) {
-            if((int)student.getValue() > 75)
+        for(Map.Entry<String, Integer> student : students.entrySet()) {
+            if(student.getValue() > 75)
                 System.out.println(student.getKey() + " : " + student.getValue());
         }
     }

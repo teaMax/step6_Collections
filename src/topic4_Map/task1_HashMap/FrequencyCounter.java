@@ -7,9 +7,9 @@ public class FrequencyCounter {
     private static Map<String, Integer> countOfFruits = new HashMap<>();
 
     public static void main(String[] args) {
-        String[] array = {"Apple", "Banana", "Apple", "Orange", "Banana", "Apple"};
-        counter(array);
-        for(Map.Entry elem : countOfFruits.entrySet()) {
+        String[] fruits = {"Apple", "Banana", "Apple", "Orange", "Banana", "Apple"};
+        counter(fruits);
+        for(Map.Entry<String, Integer> elem : countOfFruits.entrySet()) {
             System.out.println(elem.getKey() + " : " + elem.getValue());
         }
     }
